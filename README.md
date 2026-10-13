@@ -8,7 +8,7 @@
 
 Requires a 32-bit ASI loader supporting `InitializeASI`, such as [Ultimate ASI Loader](https://github.com/ThirteenAG/Ultimate-ASI-Loader). If your mod pack already has one, keep it. Back up any older `POP3ChainFix` files before replacing them. Remove the ASI to uninstall.
 
-The executable's filename does not matter, and the mouse-fix executable is not required. The plugin does require the supported internal game layout: it checks image metadata and instruction fingerprints and uses fixed engine addresses. Different builds are not automatically supported. Unsupported layouts or conflicting hooks leave the fix inactive; check `scripts/POP3ChainFix.log`.
+The plugin requires the supported internal game layout: it checks image metadata and instruction fingerprints and uses fixed engine addresses. Different builds are not automatically supported. Unsupported layouts or conflicting hooks leave the fix inactive; check `scripts/POP3ChainFix.log`.
 
 Tested on the chain at **The Lower City Rooftops**: both directions recorded at **60 and 144 FPS**, with successful **30 FPS** play also reported. Other executable builds and chain layouts are not validated.
 
