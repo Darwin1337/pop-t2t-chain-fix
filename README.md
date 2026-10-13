@@ -3,12 +3,14 @@
 ## Download and install
 
 1. [Download the latest release ZIP](https://github.com/Darwin1337/pop-t2t-chain-fix/releases/latest/download/POP3ChainFix.zip).
-2. Close the game and extract the ZIP into the game folder containing `POP3_mousefix.EXE`. It adds `scripts/POP3ChainFix.asi` and `scripts/POP3ChainFix.ini`.
+2. Close the game and extract the ZIP into the game folder, beside the executable you normally launch. It adds `scripts/POP3ChainFix.asi` and `scripts/POP3ChainFix.ini`.
 3. Launch the game normally. No debugger or mod manager is needed.
 
 Requires a 32-bit ASI loader supporting `InitializeASI`, such as [Ultimate ASI Loader](https://github.com/ThirteenAG/Ultimate-ASI-Loader). If your mod pack already has one, keep it. Back up any older `POP3ChainFix` files before replacing them. Remove the ASI to uninstall.
 
-Tested with `POP3_mousefix.EXE` on the chain at **The Lower City Rooftops**: both directions recorded at **60 and 144 FPS**, with successful **30 FPS** play also reported. Other executable builds and chain layouts are not validated. Unsupported executable layouts or conflicting hooks leave the fix inactive; check `scripts/POP3ChainFix.log`.
+The executable's filename does not matter, and the mouse-fix executable is not required. The plugin does require the supported internal game layout: it checks image metadata and instruction fingerprints and uses fixed engine addresses. Different builds are not automatically supported. Unsupported layouts or conflicting hooks leave the fix inactive; check `scripts/POP3ChainFix.log`.
+
+Tested on the chain at **The Lower City Rooftops**: both directions recorded at **60 and 144 FPS**, with successful **30 FPS** play also reported. Other executable builds and chain layouts are not validated.
 
 ## Build from source
 
