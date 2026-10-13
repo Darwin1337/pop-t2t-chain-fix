@@ -1,0 +1,14 @@
+/build/
+/dist/
+/local/
+__pycache__/
+*.py[cod]
+*.exe
+*.dll
+*.asi
+*.lib
+*.obj
+*.pdb
+*.log
+*.zip
+*.bak
